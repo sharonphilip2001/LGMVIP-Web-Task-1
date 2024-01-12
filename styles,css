@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url("todolistimage.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color:rgb(31, 29, 29);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    width:400px;
+    color:pink;
+}
+
+input[type="text"]{
+    height: 40px;
+    width:295px;
+    border-radius: 6px;
+    background-color:blueviolet;
+    border: 3px solid white;
+}
+
+button{
+    height: 38px;
+    width:60px;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    background-color:blueviolet;
+    color:black;
+    border: 2px solid white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: #5ea5ce ;
+    color:black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color:rgb(204, 11, 146);
+    color: #2ba3b3;
+    border: none;
+    height: 33px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
